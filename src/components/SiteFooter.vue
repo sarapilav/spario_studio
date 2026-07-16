@@ -11,7 +11,7 @@ const links = navLinks.filter((link) => link.label !== 'Home');
     <div class="wrap footer-top">
       <div>
         <BrandMark variant="dark" />
-        <p>A digital studio building websites, software, and the systems behind them, for businesses ready to be taken seriously online.</p>
+        <p>A digital studio building websites, software, and the systems behind them for small and medium businesses ready to be taken seriously online.</p>
       </div>
       <div class="footer-col">
         <h5>Studio</h5>
@@ -20,7 +20,7 @@ const links = navLinks.filter((link) => link.label !== 'Home');
       <div class="footer-col">
         <h5>Get In Touch</h5>
         <a href="mailto:hello@spariostudio.com">hello@spariostudio.com</a>
-        <p class="footer-note">Available worldwide - remote first</p>
+        <p class="footer-note">Based in Sarajevo - available worldwide, remote first</p>
         <div class="social-links" aria-label="Social links">
           <a href="https://www.instagram.com/" aria-label="Instagram">
             <AppIcon name="instagram" class-name="social-icon" />

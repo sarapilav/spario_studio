@@ -7,21 +7,21 @@ export const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-export const tickerItems = ['Websites', 'Custom Software', 'Integrations', 'Content Creation', 'Launch Support'];
+export const tickerItems = ['Website Design & Development', 'Custom Software', 'Integrations', 'Content Creation', 'Launch Support'];
 
 export const services = [
   {
     number: '01',
-    title: 'Websites & Digital Presence',
+    title: 'Website Design & Development',
     icon: 'browser',
-    description: 'Modern digital experiences that help businesses present their work clearly and professionally online.',
+    description: 'Modern, professional websites that help small and medium businesses present their work clearly and be taken seriously online.',
     items: ['Marketing & brand sites', 'Landing pages & campaign sites', 'Multi-page platforms & portals', 'SEO foundations & performance', 'Accessibility & responsive design', 'CMS integration & training'],
   },
   {
     number: '02',
-    title: 'Custom Software',
+    title: 'Custom Software Development',
     icon: 'integration',
-    description: 'Custom software solutions designed around the way your business works - from idea, planning, and structure to development, testing, and launch.',
+    description: 'Software designed around the way your business actually operates - planned, built, tested, and launched to solve a real problem.',
     items: ['Internal dashboards & admin tools', 'Customer portals & member areas', 'API design & third-party integrations', 'Automations & workflow tooling', 'Databases & authentication', 'Ongoing maintenance & support'],
   },
   {
@@ -29,7 +29,7 @@ export const services = [
     title: 'Integrations',
     icon: 'brand',
     minor: true,
-    description: 'Digital tools, platforms, and systems connected so your business can work more smoothly and efficiently.',
+    description: 'Your tools, platforms, and systems connected so information moves automatically instead of manually.',
     items: ['Logo & wordmark design', 'Colour & typography systems', 'Brand guidelines'],
   },
   {
@@ -37,7 +37,7 @@ export const services = [
     title: 'Content Creation',
     icon: 'grid',
     minor: true,
-    description: 'Clear content that helps your business communicate better, explain its services, and build a stronger digital presence.',
+    description: 'Clear, purposeful content that explains what you do, why it matters, and why someone should choose you.',
     items: ['Social media templates', 'Content calendars & frameworks', 'Newsletter templates'],
   },
 ];
@@ -47,40 +47,40 @@ export const approachItems = [
     step: '01',
     icon: 'check',
     title: 'Understand',
-    text: 'We start by understanding your business, your goals, your current challenges, and what you want the final solution to achieve.',
+    text: 'We start by understanding your business, your goals, your current challenges, and what the finished product needs to achieve.',
   },
   {
     step: '02',
     icon: 'layout',
     title: 'Structure',
-    text: 'We define the direction, content, features, flow, and technical requirements so the project has a clear foundation before anything is built.',
+    text: 'We define direction, content, features, and technical requirements so there is a solid foundation before anything is built.',
   },
   {
     step: '03',
     icon: 'target',
     title: 'Build',
-    text: 'We create the website, software, integration, or content based on the agreed structure, with attention to usability, clarity, and long-term purpose.',
+    text: 'We build your website, software, or integration to the agreed structure, with attention to usability, performance, and long-term maintainability.',
   },
   {
     step: '04',
     icon: 'layout',
     title: 'Refine',
-    text: 'We review the work, adjust the details, improve the experience, and make sure the final result fits your business needs.',
+    text: 'We test, review, and adjust the details until the result fits how your business works.',
   },
   {
     step: '05',
     icon: 'target',
     title: 'Launch',
-    text: 'We prepare the final version, support the launch, and make sure the solution is ready to be used, shared, or presented professionally.',
+    text: 'We prepare the final version, support the launch, and make sure everything is live, working, and ready to represent your business professionally.',
   },
 ];
 
 export const processStages = [
-  { tag: 'Stage 01', title: 'Idea', text: 'We shape the starting point, clarify the goal, and identify what the digital solution needs to achieve.' },
-  { tag: 'Stage 02', title: 'Plan', text: 'We organize the content, structure, features, and technical requirements before production begins.' },
-  { tag: 'Stage 03', title: 'Build', text: 'We develop the website, software, integration, or content system with clarity and long-term use in mind.' },
-  { tag: 'Stage 04', title: 'Refine', text: 'We review the details, improve the experience, and make sure the solution fits the business need.' },
-  { tag: 'Stage 05', title: 'Launch', text: 'We prepare the final version, support the launch, and make sure everything is ready to be shared professionally.' },
+  { tag: 'Stage 01', title: 'Idea', text: 'Clarifying the goal and what the digital solution needs to achieve.' },
+  { tag: 'Stage 02', title: 'Plan', text: 'Organizing content, structure, features, and technical requirements before production starts.' },
+  { tag: 'Stage 03', title: 'Build', text: 'Developing the website, software, or content system with long-term use in mind.' },
+  { tag: 'Stage 04', title: 'Refine', text: 'Reviewing details and improving the experience to match the business need.' },
+  { tag: 'Stage 05', title: 'Launch', text: 'Preparing the final version and supporting a professional, on-time launch.' },
 ];
 
 export const testimonials = [
@@ -104,31 +104,35 @@ export const testimonials = [
 export const faqs = [
   {
     question: 'Can you work with our existing tools and systems?',
-    answer: 'Yes. We can connect new builds to existing tools, platforms, and internal systems so the digital setup works more smoothly.',
+    answer: 'Yes. We connect new builds to your existing tools, platforms, and internal systems so everything works together smoothly.',
   },
   {
     question: 'Is every project custom, or do you use templates?',
-    answer: 'Every project is planned around the business, its goals, and what the final solution needs to achieve. We use a clear process, but the structure is shaped for each project.',
+    answer: 'Every website and software project is built from scratch and planned around your business and goals. We follow a consistent process, but the structure itself is shaped for each client.',
   },
   {
     question: 'Do you support the site or software after it launches?',
-    answer: 'Yes. We can support launch, updates, improvements, and ongoing maintenance so the solution keeps working after it goes live.',
+    answer: 'Yes. We offer ongoing support, updates, and improvements so your solution keeps working well after launch - not just on day one.',
   },
   {
     question: 'Can we see examples of previous work?',
-    answer: 'Yes. We share relevant project examples privately after an initial conversation, so we can send work that matches your goals, budget, and type of business.',
+    answer: 'Yes. We share relevant project examples privately after an initial conversation, matched to your goals, budget, and type of business.',
+  },
+  {
+    question: 'Do you only work with clients in Bosnia and Herzegovina?',
+    answer: 'No. Spario Studio is based in Sarajevo but works remotely with clients worldwide. Location is not a limitation - clear communication and a defined process are what make remote collaboration work.',
   },
 ];
 
 export const contactDetails = [
   { label: 'Email', href: 'mailto:hello@spariostudio.com', text: 'hello@spariostudio.com' },
-  { label: 'Studio', text: 'Available worldwide - remote first.' },
+  { label: 'Studio', text: 'Based in Sarajevo, Bosnia and Herzegovina - available worldwide, remote first.' },
   { label: 'Response Time', text: 'We reply within one business day.' },
 ];
 
 export const serviceOptions = [
-  'Websites & Digital Presence',
-  'Custom Software',
+  'Website Design & Development',
+  'Custom Software Development',
   'Integrations',
   'Content Creation',
   'A full digital solution - idea to launch',

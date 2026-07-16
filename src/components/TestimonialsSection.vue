@@ -9,8 +9,8 @@ import SectionHeader from './SectionHeader.vue';
       <div class="testimonials-head">
         <SectionHeader
           eyebrow="Client Notes"
-          title="Quiet proof, shared with care."
-          description="If you want to see relevant project examples, get in touch and we will send selected work privately."
+          title="Real feedback, shared with care."
+          description="Want to see relevant project examples first? Get in touch and we will share selected work privately, matched to your industry and goals."
         />
         <a href="#contact" class="btn btn-outline">Request Examples</a>
       </div>

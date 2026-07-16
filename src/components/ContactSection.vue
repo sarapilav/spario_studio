@@ -10,7 +10,7 @@ const details = contactDetails;
       <div class="contact-info">
         <span class="eyebrow">Get In Touch</span>
         <h2>Tell us about your business.</h2>
-        <p class="desc">Share a few details about where you are and what you need, and we'll come back with next steps and a rough plan - no obligation.</p>
+        <p class="desc">Share a few details about your business and what you need, and we'll come back with next steps and a rough plan.</p>
         <div class="contact-detail">
           <div v-for="detail in details" :key="detail.label">
             <span class="label">{{ detail.label }}</span>
