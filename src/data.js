@@ -7,15 +7,15 @@ export const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 
-export const tickerItems = ['Website Design & Development', 'Custom Software', 'Integrations', 'Content Creation', 'Launch Support'];
+export const tickerItems = ['Website & Webshop Development', 'Custom Software', 'Integrations', 'Content Creation', 'Launch Support'];
 
 export const services = [
   {
     number: '01',
-    title: 'Website Design & Development',
+    title: 'Website & Webshop Development',
     icon: 'browser',
-    description: 'Modern, professional websites that help small and medium businesses present their work clearly and be taken seriously online.',
-    items: ['Marketing & brand sites', 'Landing pages & campaign sites', 'Multi-page platforms & portals', 'SEO foundations & performance', 'Accessibility & responsive design', 'CMS integration & training'],
+    description: 'Modern websites and webshops for small and medium businesses, built custom or through CMS platforms like WordPress and Shopify.',
+    items: ['Marketing & brand sites', 'Landing pages & campaign sites', 'WordPress and Shopify builds', 'Custom ecommerce experiences', 'SEO foundations & performance', 'CMS integration & training'],
   },
   {
     number: '02',
@@ -59,7 +59,7 @@ export const approachItems = [
     step: '03',
     icon: 'target',
     title: 'Build',
-    text: 'We build your website, software, or integration to the agreed structure, with attention to usability, performance, and long-term maintainability.',
+    text: 'We build your website, webshop, software, or integration to the agreed structure, with attention to usability, performance, and long-term maintainability.',
   },
   {
     step: '04',
@@ -78,7 +78,7 @@ export const approachItems = [
 export const processStages = [
   { tag: 'Stage 01', title: 'Idea', text: 'Clarifying the goal and what the digital solution needs to achieve.' },
   { tag: 'Stage 02', title: 'Plan', text: 'Organizing content, structure, features, and technical requirements before production starts.' },
-  { tag: 'Stage 03', title: 'Build', text: 'Developing the website, software, or content system with long-term use in mind.' },
+  { tag: 'Stage 03', title: 'Build', text: 'Developing the website, webshop, software, or content system with long-term use in mind.' },
   { tag: 'Stage 04', title: 'Refine', text: 'Reviewing details and improving the experience to match the business need.' },
   { tag: 'Stage 05', title: 'Launch', text: 'Preparing the final version and supporting a professional, on-time launch.' },
 ];
@@ -108,7 +108,7 @@ export const faqs = [
   },
   {
     question: 'Is every project custom, or do you use templates?',
-    answer: 'Every website and software project is built from scratch and planned around your business and goals. We follow a consistent process, but the structure itself is shaped for each client.',
+    answer: 'Every website, webshop, and software project is planned around your business and goals. We can build custom or use CMS platforms like WordPress and Shopify when they are the right fit.',
   },
   {
     question: 'Do you support the site or software after it launches?',
@@ -131,7 +131,7 @@ export const contactDetails = [
 ];
 
 export const serviceOptions = [
-  'Website Design & Development',
+  'Website & Webshop Development',
   'Custom Software Development',
   'Integrations',
   'Content Creation',

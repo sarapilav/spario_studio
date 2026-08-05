@@ -9,7 +9,7 @@ import Monogram from './Monogram.vue';
       <div>
         <span class="eyebrow">A Digital Studio · Est. 2026</span>
         <h1>Custom digital solutions,<br><em>built around your business.</em></h1>
-        <p class="lede">Spario Studio designs and builds websites, custom software, integrations, and supporting content for businesses ready to build a serious digital presence.</p>
+        <p class="lede">Spario Studio designs and builds websites, webshops, custom software, integrations, and supporting content for businesses ready to build a serious digital presence.</p>
         <p class="lede lede-secondary">We work with small and medium businesses and first-time founders worldwide, guiding every project from the first idea through planning, development, refinement, and launch.</p>
         <div class="cta-row">
           <a href="#contact" class="btn btn-solid">Start a Project</a>

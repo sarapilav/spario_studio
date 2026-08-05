@@ -16,7 +16,6 @@ const serviceImages = [laptopNotes, planningTable, workspaceDetail, laptopNotes]
             <span class="eyebrow">What We Do</span>
             <h2 class="mt-16">Services</h2>
           </div>
-          <a href="#contact" class="jump">All Services -></a>
         </div>
       </div>
 
@@ -31,7 +30,6 @@ const serviceImages = [laptopNotes, planningTable, workspaceDetail, laptopNotes]
             <span class="num">{{ service.number }}</span>
             <h3>{{ service.title }}</h3>
             <p class="row-desc">{{ service.description }}</p>
-            <a href="#contact" class="service-link">Discuss this service</a>
           </div>
           <div class="service-media" aria-hidden="true">
             <img :src="serviceImages[index]" alt="">
