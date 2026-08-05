@@ -30,6 +30,9 @@ const serviceImages = [laptopNotes, planningTable, workspaceDetail, laptopNotes]
             <span class="num">{{ service.number }}</span>
             <h3>{{ service.title }}</h3>
             <p class="row-desc">{{ service.description }}</p>
+            <ul class="service-items">
+              <li v-for="item in service.items" :key="item">{{ item }}</li>
+            </ul>
           </div>
           <div class="service-media" aria-hidden="true">
             <img :src="serviceImages[index]" alt="">

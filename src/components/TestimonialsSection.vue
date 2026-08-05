@@ -1,27 +1,25 @@
 <script setup>
-import { testimonials } from '../data.js';
+import { reasonsToChooseUs } from '../data.js';
 import SectionHeader from './SectionHeader.vue';
 </script>
 
 <template>
-  <section class="section testimonials-section" id="testimonials">
+  <section class="section testimonials-section" id="why-us">
     <div class="wrap">
       <div class="testimonials-head">
         <SectionHeader
-          eyebrow="Client Notes"
-          title="Real feedback, shared with care."
-          description="Want to see relevant project examples first? Get in touch and we will share selected work privately, matched to your industry and goals."
+          eyebrow="Why Spario Studio"
+          title="A focused partner, from first idea to launch."
+          description="Clear communication, thoughtful decisions, and solutions shaped around the way your business actually works."
         />
         <a href="#contact" class="btn btn-outline">Request Examples</a>
       </div>
 
       <div class="testimonial-grid">
-        <article v-for="testimonial in testimonials" :key="testimonial.quote" class="testimonial-card">
-          <p class="quote">“{{ testimonial.quote }}”</p>
-          <div class="testimonial-source">
-            <span>{{ testimonial.name }}</span>
-            <small>{{ testimonial.company }}</small>
-          </div>
+        <article v-for="(reason, index) in reasonsToChooseUs" :key="reason.title" class="testimonial-card">
+          <span class="eyebrow">0{{ index + 1 }}</span>
+          <h3>{{ reason.title }}</h3>
+          <p class="quote">{{ reason.text }}</p>
         </article>
       </div>
     </div>

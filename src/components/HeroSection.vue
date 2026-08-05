@@ -7,13 +7,12 @@ import Monogram from './Monogram.vue';
   <section class="hero" id="top">
     <div class="hero-inner">
       <div>
-        <span class="eyebrow">A Digital Studio · Est. 2026</span>
+        <span class="eyebrow">Digital Studio · Sarajevo → Worldwide</span>
         <h1>Custom digital solutions,<br><em>built around your business.</em></h1>
-        <p class="lede">Spario Studio designs and builds websites, webshops, custom software, integrations, and supporting content for businesses ready to build a serious digital presence.</p>
-        <p class="lede lede-secondary">We work with small and medium businesses and first-time founders worldwide, guiding every project from the first idea through planning, development, refinement, and launch.</p>
+        <p class="lede">We design and build websites, webshops, software, and the content that supports them — for small and medium businesses and first-time founders ready to be taken seriously online.</p>
         <div class="cta-row">
           <a href="#contact" class="btn btn-solid">Start a Project</a>
-          <a href="#contact" class="btn btn-outline">Contact Us</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
         </div>
       </div>
       <div class="hero-visual" role="img" aria-label="Workspace with a laptop, notes, and coffee">

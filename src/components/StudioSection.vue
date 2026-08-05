@@ -19,13 +19,13 @@ import workspaceDetail from '../assets/photos/web/workspace-detail.jpg';
           </div>
         </div>
         <div>
-          <h2>Why <em>Spario Studio</em></h2>
+          <h2>Small studio, <em>full attention.</em></h2>
           <p class="desc">Spario Studio is a remote-first digital studio based in Sarajevo, Bosnia and Herzegovina, working with clients worldwide.</p>
           <p class="desc">We build websites and custom software from the ground up, shaped around your business instead of forcing your work into a template.</p>
           <ul class="studio-points">
-            <li>Custom structure, content, and technical decisions shaped around how your business actually works.</li>
-            <li>A defined process with clear milestones, so you always know what is happening next.</li>
-            <li>One point of contact from idea to launch, keeping planning, development, and refinement connected.</li>
+            <li>You get a plan that fits your business — not a template stretched to cover it.</li>
+            <li>Clear milestones at every stage, so you always know what is happening next.</li>
+            <li>One person to talk to, from first call to launch day.</li>
           </ul>
         </div>
       </div>

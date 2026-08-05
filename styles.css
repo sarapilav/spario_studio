@@ -607,6 +607,29 @@ nav.primary a.nav-link:hover::after {
   line-height: var(--body-line);
   max-width: 44ch;
 }
+.service-items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  margin: 28px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--line-dark);
+  list-style: none;
+}
+.service-items li {
+  position: relative;
+  padding-left: 16px;
+  color: rgba(23, 23, 30, 0.68);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.55;
+}
+.service-items li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--taupe);
+}
 .service-link {
   display: inline-flex;
   margin-top: 28px;
@@ -785,7 +808,6 @@ nav.primary a.nav-link:hover::after {
   padding-top: 28px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 28px;
   min-height: 280px;
   transition:
@@ -955,6 +977,14 @@ form.contact-form {
   flex-direction: column;
   justify-content: space-around;
 }
+.form-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -992,6 +1022,10 @@ form.contact-form button.btn {
   padding: 10px 18px;
   font-size: 10px;
   letter-spacing: 0.12em;
+}
+.testimonial-card h3 {
+  font-size: var(--heading-small);
+  margin: 18px 0 14px;
 }
 
 footer {
@@ -1199,6 +1233,9 @@ footer {
   }
   .service-copy .num {
     font-size: 54px;
+  }
+  .service-items {
+    grid-template-columns: 1fr;
   }
   .service-media::before,
   .service-feature-alt .service-media::before {

@@ -4,11 +4,9 @@ import ContactSection from './ContactSection.vue';
 import CtaBand from './CtaBand.vue';
 import FaqSection from './FaqSection.vue';
 import HeroSection from './HeroSection.vue';
-import ProcessSection from './ProcessSection.vue';
 import ServicesSection from './ServicesSection.vue';
 import SiteFooter from './SiteFooter.vue';
 import SiteHeader from './SiteHeader.vue';
-import StatsBand from './StatsBand.vue';
 import StudioSection from './StudioSection.vue';
 import TestimonialsSection from './TestimonialsSection.vue';
 import TickerBar from './TickerBar.vue';
@@ -21,8 +19,6 @@ import TickerBar from './TickerBar.vue';
   <StudioSection />
   <ServicesSection />
   <ApproachSection />
-  <ProcessSection />
-  <StatsBand />
   <TestimonialsSection />
   <FaqSection />
   <CtaBand />

@@ -1,9 +1,10 @@
 export const navLinks = [
   { label: 'Home', href: '#top' },
+  { label: 'Studio', href: '#studio' },
   { label: 'Services', href: '#services' },
   { label: 'Approach', href: '#approach' },
-  { label: 'Testimonials', href: '#testimonials' },
-  { label: 'Studio', href: '#studio' },
+  { label: 'Why Us', href: '#why-us' },
+  { label: 'FAQ', href: '#faq' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -30,15 +31,15 @@ export const services = [
     icon: 'brand',
     minor: true,
     description: 'Your tools, platforms, and systems connected so information moves automatically instead of manually.',
-    items: ['Logo & wordmark design', 'Colour & typography systems', 'Brand guidelines'],
+    items: ['API design & third-party integrations', 'Automations & workflow tooling', 'CRM, ecommerce & payment connections', 'Data syncing between platforms', 'Legacy system connections', 'Integration monitoring & support'],
   },
   {
     number: '04',
     title: 'Content Creation',
     icon: 'grid',
     minor: true,
-    description: 'Clear, purposeful content that explains what you do, why it matters, and why someone should choose you.',
-    items: ['Social media templates', 'Content calendars & frameworks', 'Newsletter templates'],
+    description: 'Clear, on-brand content and the templates to keep producing it — so what you say matches how your business actually sounds.',
+    items: ['Social media templates', 'Content calendars & frameworks', 'Newsletter templates', 'Technical articles'],
   },
 ];
 
@@ -46,62 +47,55 @@ export const approachItems = [
   {
     step: '01',
     icon: 'check',
-    title: 'Understand',
-    text: 'We start by understanding your business, your goals, your current challenges, and what the finished product needs to achieve.',
+    title: 'Discover',
+    text: 'Understanding your business, goals, and what the finished result needs to achieve.',
   },
   {
     step: '02',
     icon: 'layout',
-    title: 'Structure',
-    text: 'We define direction, content, features, and technical requirements so there is a solid foundation before anything is built.',
+    title: 'Plan',
+    text: 'Defining structure, content, features, and technical requirements before anything is built.',
   },
   {
     step: '03',
     icon: 'target',
     title: 'Build',
-    text: 'We build your website, webshop, software, or integration to the agreed structure, with attention to usability, performance, and long-term maintainability.',
+    text: 'Building to that plan, with attention to usability, performance, and long-term maintainability.',
   },
   {
     step: '04',
     icon: 'layout',
     title: 'Refine',
-    text: 'We test, review, and adjust the details until the result fits how your business works.',
+    text: 'Testing and adjusting the details until it genuinely fits how your business works.',
   },
   {
     step: '05',
     icon: 'target',
     title: 'Launch',
-    text: 'We prepare the final version, support the launch, and make sure everything is live, working, and ready to represent your business professionally.',
+    text: 'Preparing the final version and supporting the launch, start to finish.',
   },
 ];
 
-export const processStages = [
-  { tag: 'Stage 01', title: 'Idea', text: 'Clarifying the goal and what the digital solution needs to achieve.' },
-  { tag: 'Stage 02', title: 'Plan', text: 'Organizing content, structure, features, and technical requirements before production starts.' },
-  { tag: 'Stage 03', title: 'Build', text: 'Developing the website, webshop, software, or content system with long-term use in mind.' },
-  { tag: 'Stage 04', title: 'Refine', text: 'Reviewing details and improving the experience to match the business need.' },
-  { tag: 'Stage 05', title: 'Launch', text: 'Preparing the final version and supporting a professional, on-time launch.' },
-];
-
-export const testimonials = [
+export const reasonsToChooseUs = [
   {
-    quote: 'Add a client quote here about the clarity of the planning process, the final website, or the software support behind the project.',
-    name: 'Client Name',
-    company: 'Business / Project Type',
+    title: 'One team, start to finish',
+    text: 'You work directly with the people building your project. No account managers, no hand-offs.',
   },
   {
-    quote: 'Add a client quote here about communication, reliability, launch support, or how the new digital presence helped the business.',
-    name: 'Client Name',
-    company: 'Business / Project Type',
+    title: 'Built around your business',
+    text: 'No cookie-cutter templates. Structure and features are planned around how you actually operate.',
   },
   {
-    quote: 'Add a client quote here about design quality, technical detail, integrations, or the confidence the project created after launch.',
-    name: 'Client Name',
-    company: 'Business / Project Type',
+    title: 'Support after launch',
+    text: 'Going live is the start, not the finish. We stay involved for updates and fixes afterward.',
   },
 ];
 
 export const faqs = [
+  {
+    question: 'How much does a project cost?',
+    answer: 'Every project is scoped individually based on what you need, so pricing depends on the size and complexity of the work. Get in touch with a short description of your project and we will follow up with a clear estimate — no obligation.',
+  },
   {
     question: 'Can you work with our existing tools and systems?',
     answer: 'Yes. We connect new builds to your existing tools, platforms, and internal systems so everything works together smoothly.',

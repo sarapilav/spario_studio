@@ -19,7 +19,15 @@ const details = contactDetails;
           </div>
         </div>
       </div>
-      <form class="contact-form" aria-label="Contact form">
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/hello@spariostudio.com"
+        method="POST"
+        aria-label="Contact form"
+      >
+        <input type="hidden" name="_subject" value="New project enquiry from Spario Studio">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="form-row">
           <div>
             <label for="name">Name</label>
@@ -29,6 +37,13 @@ const details = contactDetails;
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
           </div>
+        </div>
+        <div>
+          <label for="service">What do you need?</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option v-for="option in serviceOptions" :key="option" :value="option">{{ option }}</option>
+          </select>
         </div>
         <div>
           <label for="message">Tell us about your project</label>
